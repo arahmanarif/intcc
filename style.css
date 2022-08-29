@@ -1,0 +1,174 @@
+/*  login page start*/
+.alert.alert-danger {
+    margin-top: 20px !important;
+}
+.welcome-name p {
+    color: #ed3f37 !important;
+    margin: 0 12px !important;
+}
+.log{
+    background-image: url(img/cover.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+/*  login page end*/
+
+
+.log-frm {
+    margin: 0 auto;
+    margin-top: 30vh;
+    text-align: center;
+    margin-right: 75px;
+    border: 1px solid #f7857896;
+    box-shadow: 0px 0px 10px 5px #9e33bd69;
+    padding: 40px;
+}
+
+.log-frm.col-md-4 input {background: transparent;color: #ffff !important;font-size: 17px; border: none; border-bottom: 1px solid #ddd;}
+
+::placeholder {
+  color:#f8994f;
+  opacity: 1; /* Firefox */
+}
+input:focus{
+    outline: none;
+}
+button.btn {
+    width: 68%;
+    background: #f8994f;
+    color: #690e6d;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.log-frm.col-md-4 input [type=submit] {
+    width: 68% !important;
+    background: #f8994f !important;
+    color: #690e6d !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.another-link span{
+    color: #fff;
+}
+
+
+/*header css start*/
+
+header {
+    background: #000;
+}
+
+ul.navbar-nav {
+    margin: 0 auto !important;
+}
+a.nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F642A0 !important;
+    margin: 0px 10px;
+}
+.balance span {
+    color: #ed3f37;
+    border-right: 2px solid #f642a0;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+}
+span.amount {
+    border: none;
+    padding:  0px 2px;
+    font-size: 16px;
+}
+/*header css end*/
+
+/*index css start */
+section.banner img {
+    width: 100%;
+    /*margin-top: -75px;*/
+    height: 96vh;
+}
+
+h2.profit {
+    margin-top: -56vh;
+    text-align: center;
+    color: #fbac5b;
+}
+
+.alert-area {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.alert-area h6 {
+    line-height: 20px;
+    font-size: 13px;
+    background: red;
+    padding: 10px;
+}
+
+
+.paymet-box {
+    margin-top: 75px;
+}
+
+.p-heading h2 {
+    text-align: center;
+}
+
+div#ltcAddressBlock {
+    background: none !important;
+    width: 100%;
+    font-size: 14px;
+    height: 52px;
+    border-color: #febf2e !important;
+}
+
+span.Bns {
+    color: #fa4a9a;
+    font-size: 14px;
+}
+h2.S-heading {
+    font-size: 20px;
+    font-family: system-ui;
+    margin: 20px 0px;
+}
+
+.left-side ul li {
+    font-size: 13px;
+}
+
+.right-side {
+    background: #dddddd1f;
+    padding: 5px;
+}
+
+.right-side p {
+    font-size: 13px;
+    padding: 3px;
+}section.ssn {
+    margin: 66px 0px;
+}
+button.result {border: none;font-size: 19px;border-radius: 5px;}
+.right-side p{
+    text-shadow: #111 0 0 15px;
+    color: transparent;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
+}
+.S-heading{
+    text-shadow: none !important;
+    color: #000;
+}
+/*index css end */
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+/*  login page start*/
+
+.log{
+    background-image: url(img/cover.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin-top:;
+}
+/*  login page end*/
+
+
+.log-frm {
+    margin: 0 auto;
+    margin-top: 41vh;
+    text-align: center;
+    margin-right: 171px;
+    border: 1px solid #f7857896;
+    box-shadow: 0px 0px 10px 5px #9e33bd69;
+    padding: 40px;
+}
+
+.log-frm.col-md-4 input {background: transparent;color: #ffff !important;font-size: 17px; border: none; border-bottom: 1px solid #ddd;}
+
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+input:focus{
+    outline: none;
+}
+button.btn {
+    width: 68%;
+    background: #f8994f;
+    color: #690e6d;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.another-link span{
+    color: #fff;
+}
+
+
+/*header css start*/
+
+header {
+    background: #000;
+}
+
+ul.navbar-nav {
+    margin: 0 auto !important;
+}
+a.nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F642A0 !important;
+    margin: 0px 10px;
+}
+.balance span {
+    color: #ed3f37;
+    border-right: 2px solid #f642a0;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+}
+span.amount {
+    border: none;
+    padding:  0px 2px;
+    font-size: 16px;
+}
+/*header css end*/
+
+
+
+
+
+
+
+
